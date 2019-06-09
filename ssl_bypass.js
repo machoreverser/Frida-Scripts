@@ -19,7 +19,7 @@ function custom_verify_callback_that_does_not_validate(ssl, out_alert){
 	return 0;
 }
 
-/** Warp callback in NativeCallback for frida */
+/** Wrap callback in NativeCallback for frida */
 var ssl_verify_result_t = new NativeCallback(function (ssl, out_alert){
 	custom_verify_callback_that_does_not_validate(ssl, out_alert);
 },'int',['pointer','pointer']);
