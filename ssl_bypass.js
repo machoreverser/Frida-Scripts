@@ -1,5 +1,5 @@
 /* Description: iOS 12 SSL Bypass based on blog post https://nabla-c0d3.github.io/blog/2019/05/18/ssl-kill-switch-for-ios12/
-*  Author: 		@macho_reverser
+*  Author: 	@macho_reverser
 */
 
 // Variables
